@@ -3,6 +3,7 @@ $(document).ready(function() {
 /**
  * Creates the ct namespace for the chatapp widget
  * @name ct
+ * @namespace
  */
 var ct = {}; 
 
