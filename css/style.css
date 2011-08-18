@@ -1,0 +1,48 @@
+html {
+         height: 100%;
+         background-color: #dedede;
+      }
+
+      body {
+         width: 800px;
+         height: 100%;
+         margin: 0 auto;
+         background-color: #fff;
+         padding-top: 20px;
+         position: relative;
+      }
+
+      #chat {
+         width: 600px;
+         height: 500px;
+         margin: 0 auto;
+         position: relative;
+         border: 1px solid #111;
+         overflow: auto;
+      }
+
+      #chat_input {
+         width: 600px;
+         height: 50px;
+         margin: 5px 0 0 100px;
+         padding: 1px;
+         clear: both;
+      }
+      input, textarea {
+         float: left;
+         clear: both;
+      }
+      input {
+         margin-left: 100px;
+      }
+
+      #users {
+         position: absolute;
+         height: 300px;
+         width: 150px;
+         left: -200px;
+         top: 83px;
+         background-color: #fff;
+         padding: 20px;
+      }
+
